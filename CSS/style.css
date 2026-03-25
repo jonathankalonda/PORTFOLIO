@@ -95,7 +95,7 @@ a.active::after{
     align-items: center;
     gap:5rem;
     text-align: center;
-    margin: 10rem
+    margin: 10rem;
     
 
 }
@@ -113,7 +113,8 @@ a.active::after{
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 1.2rem;
-}
+    margin: 2rem;
+    }
 .hero p {
     color:var(--gris-fonce);
     font-size:1.3rem ;
@@ -129,12 +130,40 @@ a.active::after{
     text-transform:uppercase;
     letter-spacing: 1.1px;
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: 2rem;
     transition: background-color 0.3sec ease, transform 0.2sec ease;
 }
 .hero a:hover{
     background-color: var(--violet-fonce);
     transform: translateY(-3px);
 }
+.apropos {
+    width: 800px;
+    margin: 6rem auto;
+    text-align: center;
 
- 
+}
+ section h2 {
+    color: var(--violet-doux);
+    font-size: 2.6rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+
+ }
+ section h2::after{
+    content :'';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--violet-doux);
+    margin: 2rem auto;
+    border-radius: 2px;
+}
+.apropos p{
+    margin-bottom: 2rem;
+    color: var(--gris-fonce);
+    font-size: 1.3rem;
+
+
+}
